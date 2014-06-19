@@ -1,0 +1,10 @@
+// netPanzer - game - browser in php - TODO
+
+ - For me more useful would be number of free/owned outposts in general and for every player. + time to the end of the round
+ - Add logparsing capabilities.
+
+// DONE:
+ - Create FlagID to flagname converter.
+ - Add map-info page (Map image, number/names of outposts, number of spawns).
+ - Add caching information to getimage.php .
+

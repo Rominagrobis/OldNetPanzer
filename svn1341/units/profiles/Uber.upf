@@ -1,0 +1,17 @@
+hitpoints =  1600;
+attack =  180;
+reload =  40;
+range =  31;
+regen =  40;
+defend_range =  0;
+speed_rate =  13;
+speed_factor =  2;
+image =  "pics/menus/vehicleSelectionView/titan_desert.bmp"
+bodysprite =  "units/pics/pak/desert/TitaHNSD.pak"
+bodyshadow =  "units/pics/pak/desert/TitaHSSD.pak"
+turretsprite =  "units/pics/pak/desert/TitaTNSD.pak"
+turretshadow =  "units/pics/pak/desert/TitaTSSD.pak"
+soundselected =  "ht-selected"
+soundfire =  "ht-fire"
+weapon =  "SHELL"
+boundbox =  60

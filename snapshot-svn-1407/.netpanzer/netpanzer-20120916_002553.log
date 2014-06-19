@@ -1,0 +1,200 @@
+2012-09-16 00:25:53 Log file open
+2012-09-16 00:25:53 Cleaning old log files
+2012-09-16 00:25:53 Lua Version:   'Lua 5.1.4-integrated'
+2012-09-16 00:25:53 Lua Copyright: 'Copyright (C) 1994-2008 Lua.org, PUC-Rio'
+2012-09-16 00:25:53 Lua Authors:   'R. Ierusalimschy, L. H. de Figueiredo & W. Celes'
+2012-09-16 00:25:53 couldn't read game configuration: no such path '/config/client.cfg'
+2012-09-16 00:25:53 Using default config. (this is normal on first startup)
+2012-09-16 00:25:53 Initializing sound system.
+2012-09-16 00:25:54 Couldn't find any music in 'sound/music/'
+2012-09-16 00:25:54 Initializing video mode
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/2080.tbl'
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/4060.tbl'
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/6040.tbl'
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/8020.tbl'
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/Brighten.tbl'
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/DarkenALot.tbl'
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/DarkenALittle.tbl'
+2012-09-16 00:25:54 Loading ColorTable 'cache/colorfilters/netp/LightDark.tbl'
+2012-09-16 00:25:55 Loading maps.
+2012-09-16 00:25:55 DEBUG: New news getter
+2012-09-16 00:25:55 DEBUG: SocketManager:: Adding socket [145,01d81a18]
+2012-09-16 00:25:55 DEBUG: SocketBase:: Create [tcp:176] socket
+2012-09-16 00:25:55 DEBUG: SocketManager:: Adding socket [176,01d81a18]
+2012-09-16 00:25:55 DEBUG: HTTPClientSocket connected
+2012-09-16 00:25:55 Going to send:
+GET http://netpanzer.org:80/npnews.txt HTTP/1.1
+Host: netpanzer.org:80
+Connection: close
+
+
+[END]
+2012-09-16 00:25:55 Received: [http/1.1] [200/200] [OK]
+2012-09-16 00:25:55 received header [accept-ranges]:[bytes]
+2012-09-16 00:25:55 received header [connection]:[close]
+2012-09-16 00:25:55 received header [content-length]:[86]
+2012-09-16 00:25:55 received header [content-type]:[text/plain; charset=UTF-8]
+2012-09-16 00:25:55 received header [date]:[Sat, 15 Sep 2012 22:25:56 GMT]
+2012-09-16 00:25:55 received header [etag]:["ec000c-56-bad53c00"]
+2012-09-16 00:25:55 received header [last-modified]:[Thu, 29 Mar 2012 21:51:44 GMT]
+2012-09-16 00:25:55 received header [server]:[Apache/2.2.3 (CentOS)]
+2012-09-16 00:25:55 DEBUG: SocketBase:: Closing [176] socket
+2012-09-16 00:25:55 DEBUG: SocketManager:: Removing socket [176,01d81a18]
+2012-09-16 00:25:58 DEBUG: SocketBase:: Create [udp:176] socket
+2012-09-16 00:25:58 DEBUG: SocketManager:: Adding socket [176,01d20d10]
+2012-09-16 00:25:58 DEBUG: SocketManager:: Adding socket [-1,01d20dd8]
+2012-09-16 00:25:58 DEBUG: SocketManager:: Adding socket [1633824627,01d20f18]
+2012-09-16 00:25:58 DEBUG: SocketManager:: Adding socket [1114392,01d21058]
+2012-09-16 00:25:58 DEBUG: SocketBase:: Create [tcp:180] socket
+2012-09-16 00:25:58 DEBUG: SocketManager:: Adding socket [180,01d20dd8]
+2012-09-16 00:25:58 DEBUG: SocketBase:: Create [tcp:184] socket
+2012-09-16 00:25:58 MASTERSERVER Connected [82.211.56.174]
+2012-09-16 00:25:58 DEBUG: SocketManager:: Adding socket [184,01d20f18]
+2012-09-16 00:25:58 DEBUG: SocketBase:: Create [tcp:188] socket
+2012-09-16 00:25:58 Server IP received: [82.211.56.174:3030]
+2012-09-16 00:25:58 DEBUG: Address:: Resolving '82.211.56.174':3030
+2012-09-16 00:25:58 Querying server [82.211.56.174:3030]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3040]
+2012-09-16 00:25:58 DEBUG: Address:: Resolving '109.9.54.99':3040
+2012-09-16 00:25:58 Querying server [109.9.54.99:3040]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3030]
+2012-09-16 00:25:58 DEBUG: Address:: Resolving '109.9.54.99':3030
+2012-09-16 00:25:58 Querying server [109.9.54.99:3030]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3032]
+2012-09-16 00:25:58 DEBUG: Address:: Resolving '2.225.117.73':3032
+2012-09-16 00:25:58 Querying server [2.225.117.73:3032]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3031]
+2012-09-16 00:25:58 DEBUG: Address:: Resolving '2.225.117.73':3031
+2012-09-16 00:25:58 Querying server [2.225.117.73:3031]
+2012-09-16 00:25:58 Server IP received: [189.101.231.154:3030]
+2012-09-16 00:25:58 DEBUG: SocketManager:: Adding socket [188,01d21058]
+2012-09-16 00:25:58 MASTERSERVER Connected [193.138.229.26]
+2012-09-16 00:25:58 Send error: Winsock error: 10061
+2012-09-16 00:25:58 MASTERSERVER Disconected [193.138.229.26]
+2012-09-16 00:25:58 DEBUG: SocketBase:: Closing [184] socket
+2012-09-16 00:25:58 DEBUG: SocketManager:: Removing socket [184,01d20f18]
+2012-09-16 00:25:58 DEBUG: SocketBase:: Closing [180] socket
+2012-09-16 00:25:58 DEBUG: SocketManager:: Removing socket [180,01d20dd8]
+2012-09-16 00:25:58 DEBUG: Address:: Resolving '189.101.231.154':3030
+2012-09-16 00:25:58 Querying server [189.101.231.154:3030]
+2012-09-16 00:25:58 MASTERSERVER Connected [83.142.228.166]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3032]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3030]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3031]
+2012-09-16 00:25:58 Server IP received: [82.211.56.174:3030]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3040]
+2012-09-16 00:25:58 Server IP received: [189.101.231.154:3030]
+2012-09-16 00:25:58 Server IP received: [189.52.24.45:3030]
+2012-09-16 00:25:58 DEBUG: Address:: Resolving '189.52.24.45':3030
+2012-09-16 00:25:58 Querying server [189.52.24.45:3030]
+2012-09-16 00:25:58 DEBUG: SocketBase:: Closing [188] socket
+2012-09-16 00:25:58 DEBUG: SocketManager:: Removing socket [188,01d21058]
+2012-09-16 00:26:01 Server [2.225.117.73:3031] timeout, retrying
+2012-09-16 00:26:01 Querying server [2.225.117.73:3031]
+2012-09-16 00:26:01 Server [2.225.117.73:3032] timeout, retrying
+2012-09-16 00:26:01 Querying server [2.225.117.73:3032]
+2012-09-16 00:26:01 Server [189.101.231.154:3030] timeout, retrying
+2012-09-16 00:26:01 Querying server [189.101.231.154:3030]
+2012-09-16 00:26:01 Server [189.52.24.45:3030] timeout, retrying
+2012-09-16 00:26:01 Querying server [189.52.24.45:3030]
+2012-09-16 00:26:04 Server [2.225.117.73:3031] timeout, retrying
+2012-09-16 00:26:04 Querying server [2.225.117.73:3031]
+2012-09-16 00:26:04 Server [2.225.117.73:3032] timeout, retrying
+2012-09-16 00:26:04 Querying server [2.225.117.73:3032]
+2012-09-16 00:26:04 Server [189.101.231.154:3030] timeout, retrying
+2012-09-16 00:26:04 Querying server [189.101.231.154:3030]
+2012-09-16 00:26:04 Server [189.52.24.45:3030] timeout, retrying
+2012-09-16 00:26:04 Querying server [189.52.24.45:3030]
+2012-09-16 00:26:07 Server [2.225.117.73:3031] timeout, retrying
+2012-09-16 00:26:07 Server [2.225.117.73:3032] timeout, retrying
+2012-09-16 00:26:07 Server [2.225.117.73:3031] timeout, removing
+2012-09-16 00:26:07 Server [189.101.231.154:3030] timeout, retrying
+2012-09-16 00:26:07 Server [2.225.117.73:3032] timeout, removing
+2012-09-16 00:26:07 Server [189.101.231.154:3030] timeout, removing
+2012-09-16 00:26:07 Server [189.52.24.45:3030] timeout, retrying
+2012-09-16 00:26:07 Server [189.52.24.45:3030] timeout, removing
+2012-09-16 00:26:07 Stopping querys to servers, no more servers
+2012-09-16 00:26:07 DEBUG: SocketBase:: Closing [176] socket
+2012-09-16 00:26:07 DEBUG: SocketManager:: Removing socket [176,01d20d10]
+2012-09-16 00:26:18 Trying to join server '192.168.1.130:3032'.
+
+2012-09-16 00:26:18 DEBUG: Address:: Resolving '192.168.1.130':3032
+2012-09-16 00:26:18 DEBUG: SocketBase:: Create [tcp:176] socket
+2012-09-16 00:26:18 Loading: 
+2012-09-16 00:26:18 Loading: Conecting to server 192.168.1.130:3032
+2012-09-16 00:26:18 DEBUG: SocketManager:: Adding socket [176,01d20cd8]
+2012-09-16 00:26:18 DEBUG: ClientSocket: connected, id=1
+2012-09-16 00:26:18 Loading: Link to Server Established
+2012-09-16 00:26:18 Loading: Protocol Version: 1107
+2012-09-16 00:26:18 Loading: Connecting ...
+2012-09-16 00:26:18 Loading: Loading Game Data ...
+2012-09-16 00:26:18 Loading: Loading Game Data ... (4%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (9%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (14%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (19%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (24%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (29%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (34%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (39%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (44%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (49%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (54%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (59%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (64%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (69%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (74%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (79%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (84%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (89%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (94%)
+2012-09-16 00:26:18 Loading: Loading Game Data ... (99%)
+2012-09-16 00:26:18 onMapLoadedEvent received........
+2012-09-16 00:26:18 Regenerating minimap....
+2012-09-16 00:26:18 Loading: Loading Game Data ... (100%)
+2012-09-16 00:26:18 Loading: Synchronizing unit profiles...
+2012-09-16 00:26:18 Loading: Synchronizing Player Info ...
+2012-09-16 00:26:18 Loading: Synchronizing Player Info ... (75%)
+2012-09-16 00:26:18 Loading: Synchronizing Player Info ... (100%)
+2012-09-16 00:26:18 Loading: Synchronizing Game Elements ...
+2012-09-16 00:26:18 Loading: Synchronizing Game Elements ... (100%)
+2012-09-16 00:26:18 Loading: Game Synchronized
+2012-09-16 00:26:19 DEBUG: C: Server: Welcome to Ninja's Temple (dev)
+2012-09-16 00:26:19 DEBUG: C: fu has joined the game in team Yellow.
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/2080.tbl'
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/4060.tbl'
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/6040.tbl'
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/8020.tbl'
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/Brighten.tbl'
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/DarkenALot.tbl'
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/DarkenALittle.tbl'
+2012-09-16 00:26:20 Loading ColorTable 'cache/colorfilters/netp/LightDark.tbl'
+2012-09-16 00:26:37 VoteBox Surrendering vote, you choose surrendering?
+2012-09-16 00:26:37 DEBUG: C: Server: Player fu request vote
+2012-09-16 00:26:42 DEBUG: C: Server: player fu has voted, waiting 0 votes
+2012-09-16 00:26:42 DEBUG: C: Server: Vote is end
+2012-09-16 00:26:42 DEBUG: C: Server: 100 % players has voted YES, 0 % has voted NO
+2012-09-16 00:26:42 DEBUG: C: Server: Round is over
+2012-09-16 00:27:04 Loading: Next Map 'Wild Hunt'.
+2012-09-16 00:27:04 Loading: Loading Game Map ...
+2012-09-16 00:27:04 Loading: Loading Game Map ... (6%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (12%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (18%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (24%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (31%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (37%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (43%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (49%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (56%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (62%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (68%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (74%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (81%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (87%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (93%)
+2012-09-16 00:27:04 Loading: Loading Game Map ... (99%)
+2012-09-16 00:27:04 onMapLoadedEvent received........
+2012-09-16 00:27:04 Regenerating minimap....
+2012-09-16 00:27:04 Loading: Loading Game Map ... (100%)
+2012-09-16 00:27:04 Loading: Waiting to respawn ...
+2012-09-16 00:28:35 DEBUG: SocketBase:: Closing [176] socket
+2012-09-16 00:28:35 DEBUG: SocketManager:: Removing socket [176,01d20cd8]

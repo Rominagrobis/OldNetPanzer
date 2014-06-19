@@ -1,0 +1,1362 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: netPanzer 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-24 22:10+0200\n"
+"PO-Revision-Date: 2012-10-19 13:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Actions/DisconnectAction.hpp:43 Actions/DisconnectAction.hpp:47
+#, fuzzy
+msgid "Loading Main View..."
+msgstr "Karte wird geladen..."
+
+#: Classes/Network/ClientConnectDaemon.cpp:89
+msgid "Connecting to server "
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:103
+msgid "Link to Server Established"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:104
+#, c-format
+msgid "Protocol Version: %u"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:111
+#: Classes/Network/ClientConnectDaemon.cpp:122
+#: Classes/Network/ClientConnectDaemon.cpp:130
+#: Classes/Network/ClientConnectDaemon.cpp:138
+#: Classes/Network/ClientConnectDaemon.cpp:145
+#: Classes/Network/ClientConnectDaemon.cpp:152
+msgid "Link to Server FAILED!"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:112
+msgid "Incompatible game:"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:123
+msgid "Server is VERY busy"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:124
+msgid "Please try in a few minutes"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:131
+msgid "Your IP is already connected to this server"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:132
+msgid "The server limits multiple connections from same IP"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:139
+msgid "The password for server was wrong."
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:146
+msgid "You are banned in this server"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:153
+msgid "Unknown result sent from server"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:169
+#, c-format
+msgid "Your Position In Queue is %d "
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:187
+#: Classes/Network/ClientConnectDaemon.cpp:434
+#: Classes/Network/ClientConnectDaemon.cpp:453
+#: Classes/Network/ClientConnectDaemon.cpp:463
+#, fuzzy
+msgid "Loading Game Data ..."
+msgstr "Karte wird geladen..."
+
+#: Classes/Network/ClientConnectDaemon.cpp:193
+#: Classes/Network/ClientConnectDaemon.cpp:200
+msgid "Synchronizing Player Info ..."
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:207
+msgid "Synchronizing unit profiles..."
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:213
+#: Classes/Network/ClientConnectDaemon.cpp:220
+msgid "Synchronizing Game Elements ..."
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:228
+msgid "Game Synchronized"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:238
+msgid "Server has terminated the game"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:268
+msgid "Error in server connection"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:279
+msgid "Connect Failure: Server Too Busy"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:285
+#: Classes/Network/ClientConnectDaemon.cpp:351
+msgid "Connect Failure: Server Full"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:291
+msgid "Connect Failure: You are aready connected"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:320
+msgid "Server is not responding..."
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:325
+msgid "Connection to server failed..."
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:326
+msgid "it might be older netpanzer or server is down"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:342
+msgid "Connecting ..."
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:398
+msgid "Connection To Server Failed"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:419
+#: Interfaces/GameControlRulesDaemon.cpp:636
+#, c-format
+msgid "MAP %s NOT FOUND!"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:426
+#: Interfaces/GameControlRulesDaemon.cpp:641
+msgid "MAP TILE SET NOT FOUND!"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:427
+msgid "please download the appropriate tileset"
+msgstr ""
+
+#: Classes/Network/ClientConnectDaemon.cpp:428
+msgid "from www.pyrosoftgames.com"
+msgstr ""
+
+#: Classes/Network/NetworkClient.cpp:103
+#, c-format
+msgid "connection error: %s"
+msgstr ""
+
+#: Core/NetworkGlobals.cpp:45
+#, c-format
+msgid "This server requires older netpanzer %s"
+msgstr ""
+
+#: Core/NetworkGlobals.cpp:53
+msgid "The server is a very old netpanzer version, cannot use"
+msgstr ""
+
+#: Core/NetworkGlobals.cpp:58
+msgid "This server is an older development version, cannot use"
+msgstr ""
+
+#: Core/NetworkGlobals.cpp:61
+msgid "This server is a newer netpanzer, please check http://www.netpanzer.org"
+msgstr ""
+
+#: Interfaces/ChatInterface.cpp:176
+#, c-format
+msgid "Server: %s"
+msgstr ""
+
+#: Interfaces/GameControlRulesDaemon.cpp:130
+#, c-format
+msgid "Next Map '%s'."
+msgstr "Nächste Karte '%s'."
+
+#: Interfaces/GameControlRulesDaemon.cpp:133
+#: Interfaces/GameControlRulesDaemon.cpp:162
+#: Interfaces/GameControlRulesDaemon.cpp:169
+#: Interfaces/GameControlRulesDaemon.cpp:334
+msgid "Loading Game Map..."
+msgstr "Karte wird geladen..."
+
+#: Interfaces/GameControlRulesDaemon.cpp:141
+msgid "Error while loading map:"
+msgstr "Fehler beim Laden der Karte:"
+
+#: Interfaces/GameControlRulesDaemon.cpp:165
+msgid "Waiting to respawn..."
+msgstr "Warten auf respawn..."
+
+#: Interfaces/GameManager.cpp:188
+msgid "Please wait... generating palettes"
+msgstr ""
+
+#: Interfaces/GameManager.cpp:415
+#, c-format
+msgid "%s has joined the game in team %s."
+msgstr ""
+
+#: Interfaces/GameManager.cpp:421
+#, c-format
+msgid "%s has joined the game."
+msgstr ""
+
+#: Interfaces/GameManager.cpp:432
+#, c-format
+msgid "%s has left the game."
+msgstr ""
+
+#: Interfaces/GameManager.cpp:441
+#, c-format
+msgid "Connection to %s has been unexpectedly broken."
+msgstr ""
+
+#: Interfaces/GameManager.cpp:450
+#, c-format
+msgid "Player %s was kicked"
+msgstr ""
+
+#: Interfaces/PlayerGameManager.cpp:282 Interfaces/PlayerGameManager.cpp:332
+msgid "Launching Server..."
+msgstr ""
+
+#: Interfaces/PlayerGameManager.cpp:322
+msgid "SERVER LAUNCH FAILED"
+msgstr ""
+
+#: Interfaces/PlayerGameManager.cpp:337 Interfaces/PlayerGameManager.cpp:357
+#: Interfaces/PlayerGameManager.cpp:392
+msgid "Loading Game Data"
+msgstr ""
+
+#: Interfaces/PlayerGameManager.cpp:365
+msgid "ERROR unit profiles"
+msgstr ""
+
+#: Interfaces/PlayerGameManager.cpp:366
+msgid "game.unit_profiles"
+msgstr ""
+
+#: Interfaces/PlayerGameManager.cpp:397 Interfaces/PlayerGameManager.cpp:401
+msgid "Initializing Game Logic"
+msgstr ""
+
+#: Interfaces/PlayerGameManager.cpp:404 Interfaces/PlayerGameManager.cpp:411
+msgid "Spawning Player"
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:672
+#, c-format
+msgid "You accepted %s alliance request."
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:678
+#, c-format
+msgid "You request alliance with %s."
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:688
+#, c-format
+msgid "%s accepted your alliance request."
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:694
+#, c-format
+msgid "%s request to ally with you."
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:712
+#, c-format
+msgid "You broke the alliance with %s."
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:718
+#, c-format
+msgid "You cancel your alliance request with %s."
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:728
+#, c-format
+msgid "%s broke the alliance with you."
+msgstr ""
+
+#: Interfaces/PlayerInterface.cpp:734
+#, c-format
+msgid "%s canceled the alliance request with you."
+msgstr ""
+
+#: Objectives/Objective.cpp:76
+#, c-format
+msgid "'%s' has been occupied by '%s'"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:274
+msgid "Error running user command"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:279
+#, c-format
+msgid "User command '%s' not found"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:284
+msgid "There is no defined UserCommands"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:314
+msgid "Remote admin is disabled."
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:319
+msgid "You are admin!"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:324
+msgid "Wrong password."
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:333
+msgid "You are admin no more."
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:346
+msgid "Error running server command '"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:355
+msgid "Server command '"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:355
+msgid "' not found"
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:362
+msgid "You need to be admin."
+msgstr ""
+
+#: Scripts/ScriptManager.cpp:367
+msgid "There is no defined ServerCommands"
+msgstr ""
+
+#: Views/Components/InfoBar.cpp:55
+msgid "game"
+msgstr ""
+
+#: Views/Components/InfoBar.cpp:55
+msgid "units"
+msgstr ""
+
+#: Views/Components/InfoBar.cpp:55
+msgid "frags"
+msgstr ""
+
+#: Views/Components/InfoBar.cpp:55
+msgid "objs."
+msgstr ""
+
+#: Views/Components/InfoBar.cpp:55
+msgid "time"
+msgstr ""
+
+#: Views/Components/InfoBar.cpp:55
+msgid "FPS"
+msgstr ""
+
+#: Views/Game/AreYouSureExitView.cpp:35
+#: Views/MainMenu/MenuTemplateView.cpp:297
+#: Views/MainMenu/MenuTemplateView.cpp:298
+#: Views/MainMenu/MenuTemplateView.cpp:311
+msgid "Exit netPanzer"
+msgstr ""
+
+#: Views/Game/AreYouSureExitView.cpp:53 Views/Game/AreYouSureResignView.cpp:59
+msgid "YES"
+msgstr ""
+
+#: Views/Game/AreYouSureExitView.cpp:55 Views/Game/AreYouSureResignView.cpp:61
+msgid "NO"
+msgstr ""
+
+#: Views/Game/AreYouSureExitView.cpp:66
+msgid "Are you sure you wish to exit netPanzer?"
+msgstr ""
+
+#: Views/Game/AreYouSureResignView.cpp:41
+#: Views/MainMenu/MenuTemplateView.cpp:310
+#: Views/MainMenu/MenuTemplateView.cpp:315
+msgid "Resign"
+msgstr "Schlachtfeld verlassen"
+
+#: Views/Game/AreYouSureResignView.cpp:72
+msgid "Are you sure you wish to Resign?"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:36
+msgid "Help Information"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:53
+msgid "Key"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:55
+msgid "LMC ="
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:55
+msgid "Left Mouse Click"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:56
+msgid "RMC ="
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:56
+msgid "Right Mouse Click"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:57
+msgid "RMH ="
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:57
+msgid "Right Mouse Hold"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:58
+msgid "LMH ="
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:58
+msgid "Left Mouse Hold"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:61
+msgid "Unit Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:63
+msgid "LMC"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:63
+msgid "Selects a unit"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:64
+msgid "LMH"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:64
+msgid "Makes a bouding box for unit selection"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:65
+msgid "RMC"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:65
+msgid "De-selects all selected units"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:66
+msgid "LMC + Ctrl"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:66
+msgid "Directs (force/manual) fire of a unit"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:67
+msgid "LMC + Shift, LMC + Ctrl"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:67
+msgid "Add unit to selection"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:68
+msgid "Ctrl + [0..9]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:68
+msgid "Define a group of units"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:69
+msgid "[0..9]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:69
+msgid "Recall a group of units"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:70
+msgid "[0..9] (2 times)"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:70
+msgid "Center view on a group of units"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:71
+msgid "RMH"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:71
+msgid "Fast map scroll"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:74
+msgid "Game Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:76
+msgid "LMC + 'A'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:76
+msgid "Allies with the clicked unit's team"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:77
+msgid "ESC"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:77
+msgid "In game menus"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:80
+msgid "Outpost Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:82
+msgid "'O'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:82
+msgid "Toggle outpost names"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:83
+msgid "LMC on captured outpost"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:83
+msgid "Displays the outpost view"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:84
+msgid "mouse drag on captured outpost"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:84
+msgid "Select unit spawn point"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:87
+msgid "Chat Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:89 Views/Game/LoadingView.cpp:75
+msgid "Enter"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:89
+msgid "Send message to all"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:90
+msgid "Ctrl + 'A'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:90
+msgid "Send message to allies"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:91
+msgid "'C'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:91
+msgid "Send count down message"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:94
+msgid "View Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:96
+msgid "F1"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:96
+msgid "Help View"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:97
+msgid "'B'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:97
+msgid "Toggle flag selection window"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:98
+msgid "'D'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:98
+msgid "Damage View"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:99
+msgid "'F'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:99
+msgid "Flag View"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:100
+msgid "'M'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:100
+msgid "Mini Map View"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:101
+msgid "'N'"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:101
+msgid "Name View"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:102
+msgid "TAB"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:102
+msgid "Rank View"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:103
+msgid "RMH + mouse movement"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:103
+msgid "Moves any view on the screen"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:104
+msgid "RMH + [1 - 5]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:104
+msgid "Sets the background drawing mode"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:107
+msgid "Mini Map View Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:109
+msgid "RMH + [1 - 7]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:109
+msgid "Sets the blending level of the minimap"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:110
+msgid "RMH + [+ or -]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:110
+msgid "Scales the size of the minimap"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:113
+msgid "System Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:115
+msgid "ALT + Enter"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:115
+msgid "Toggle Fullscreen/Windowed mode"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:116
+msgid "F9"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:116
+msgid "BMP screen shot"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:119
+msgid "Scripting"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:131
+msgid "Server Related"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:133
+msgid "List of Gameserver available commands"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:134
+msgid "/server adminlogin [password]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:134
+msgid "Gameserver admin login"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:135
+msgid "/server unitspawnlist [list]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:135
+msgid "List/set spawn units (number)"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:136
+msgid "/server unitprofiles [list]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:136
+msgid "List/set spawn units (types)"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:137
+msgid "/server map [map name]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:137
+msgid "Restart game with the given map"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:138
+msgid "/server autokick [timeout]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:138
+msgid "Show/set autokick for inactive players"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:140
+msgid "/server flagtimer [timeout]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:140
+msgid "Show/set flag change timer"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:141
+msgid "/server say [your talk]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:141
+msgid "Server say something in chat"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:142
+msgid "List players with the assigned number"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:143
+msgid "List available profiles"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:144
+msgid "/server kick [player number]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:144
+msgid "Kick a given player"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:145
+msgid "/server baselimit [max bases]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:145
+msgid "Show/set the max bases number per player"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:146
+msgid "/server gamepass [password]"
+msgstr ""
+
+#: Views/Game/HelpScrollView.cpp:146
+msgid "Show/set game connection password"
+msgstr ""
+
+#: Views/Game/LoadingView.cpp:52
+msgid "Loading Progress"
+msgstr ""
+
+#: Views/Game/LoadingView.cpp:73
+msgid "Abort"
+msgstr ""
+
+#: Views/Game/LoadingView.cpp:77
+msgid "Game Password"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:66
+msgid "Prepare Team"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:103
+msgid "Ready"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:180
+msgid "Get ready, the battle will begin..."
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:187
+msgid "Game"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:188 Views/MainMenu/Multi/ServerListView.cpp:53
+msgid "Map"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:197 Views/MainMenu/Multi/HostOptionsView.cpp:106
+#: Views/MainMenu/Multi/HostOptionsView.cpp:269
+#: Views/MainMenu/Multi/HostOptionsView.cpp:288
+msgid "Time Limit"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:202 Views/MainMenu/Multi/HostOptionsView.cpp:111
+#: Views/MainMenu/Multi/HostOptionsView.cpp:275
+#: Views/MainMenu/Multi/HostOptionsView.cpp:287
+msgid "Frag Limit"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:207 Views/MainMenu/Multi/HostOptionsView.cpp:101
+#: Views/MainMenu/Multi/HostOptionsView.cpp:286
+msgid "Objective"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:212 Views/Game/RankView.cpp:82
+#: Views/MainMenu/Multi/MapSelectionView.cpp:273
+#: Views/MainMenu/Multi/ServerListView.cpp:53
+msgid "Name"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:216
+msgid "Players"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:221 Views/Game/RankTeam.cpp:114
+#: Views/Game/RankTeam.cpp:142 Views/MainMenu/Multi/MapSelectionView.cpp:283
+msgid "Objectives"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:226
+msgid "Units"
+msgstr ""
+
+#: Views/Game/PrepareTeam.cpp:247 Views/Game/PrepareTeam.cpp:253
+#: Views/Game/RankTeam.cpp:126
+msgid "Team"
+msgstr ""
+
+#: Views/Game/RankTeam.cpp:38
+msgid "Round stats"
+msgstr ""
+
+#: Views/Game/RankTeam.cpp:97 Views/Game/RankView.cpp:85
+msgid "Points"
+msgstr ""
+
+#: Views/Game/RankTeam.cpp:103 Views/Game/RankTeam.cpp:132
+#: Views/Game/RankView.cpp:83 Views/MainMenu/Multi/HostOptionsView.cpp:389
+msgid "Frags"
+msgstr ""
+
+#: Views/Game/RankTeam.cpp:108 Views/Game/RankTeam.cpp:137
+msgid "deaths"
+msgstr ""
+
+#: Views/Game/RankView.cpp:66
+msgid "Rankings"
+msgstr ""
+
+#: Views/Game/RankView.cpp:84
+msgid "Deaths"
+msgstr ""
+
+#: Views/Game/RankView.cpp:86
+msgid "Objs"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:166
+msgid "Unit Production"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:185
+msgid "Static Display"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:190
+#: Views/Game/VehicleSelectionView.cpp:755
+#: Views/Game/VehicleSelectionView.cpp:758
+#: Views/Game/VehicleSelectionView.cpp:765
+#: Views/Game/VehicleSelectionView.cpp:768
+#: Views/Game/VehicleSelectionView.cpp:788
+msgid "On"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:198
+msgid "Power"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:204
+#: Views/Game/VehicleSelectionView.cpp:756
+#: Views/Game/VehicleSelectionView.cpp:766
+#: Views/Game/VehicleSelectionView.cpp:796
+msgid "Off"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:214
+msgid "Production"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:220
+msgid "Time"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:226
+msgid "Unit Built"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:281
+msgid "Close"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:409
+msgid "power off"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:447
+msgid "Invalid unit type."
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:503
+msgid "Build Time"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:509
+msgid "Select a unit for production"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:555
+#: Views/Game/VehicleSelectionView.cpp:559
+msgid "Owner"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:572
+#: Views/Game/VehicleSelectionView.cpp:576
+msgid "Outpost"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:590
+msgid "Production Off"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:596
+#, c-format
+msgid "Production: %s"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:600
+msgid "Time Left"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:717
+msgid "Hit Points"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:721
+msgid "Attack Power"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:725
+msgid "Attack Range"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:729
+msgid "Defend Range"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:733
+msgid "Speed"
+msgstr ""
+
+#: Views/Game/VehicleSelectionView.cpp:737
+msgid "Reload Time"
+msgstr ""
+
+#: Views/MainMenu/MainMenuView.cpp:73
+#, c-format
+msgid ""
+"This is NetPanzer version %s, a massively multiplayer tank battle game.\n"
+"This application is free software under the terms of the Gnu General Public "
+"license (GPL). See the COPYING file for details.\n"
+"We command you to go to www.netpanzer.org and meet us in forum.\n"
+"\n"
+"Current Team\n"
+"\n"
+"           krom: the jester\n"
+"           C-D: the insurgent\n"
+"           fu: the ninja\n"
+"           Wile64: the hunter\n"
+"\n"
+"Previous Authors\n"
+"\n"
+"   Original Game (Pyrosoft)\n"
+"   Vlad Rahkoy, Skip Rhudy, Matt Bogue, Clint Bogue\n"
+"\n"
+"Linux Port, Polishing\n"
+"   Matthias Braun, Ivo Danihelka, Hollis Blanchard, Hankin Chick,\n"
+"   Tyler Nielsesn, Pronobozo\n"
+"\n"
+"Packaging:\n"
+"   Bastosz Fenski, BenUrban\n"
+"\n"
+"Related Tools:\n"
+"   Tobias Blerch, Ingo Ruhnke\n"
+"\n"
+"NetPanzer News:"
+msgstr ""
+
+#: Views/MainMenu/MainMenuView.cpp:87
+#, fuzzy
+msgid "Loading news..."
+msgstr "Karte wird geladen..."
+
+#: Views/MainMenu/MenuTemplateView.cpp:288
+#: Views/MainMenu/MenuTemplateView.cpp:289
+msgid "Main"
+msgstr "Start"
+
+#: Views/MainMenu/MenuTemplateView.cpp:290
+#: Views/MainMenu/MenuTemplateView.cpp:291
+msgid "Join"
+msgstr "Beitreten"
+
+#: Views/MainMenu/MenuTemplateView.cpp:292
+#: Views/MainMenu/MenuTemplateView.cpp:293
+msgid "Host"
+msgstr "Hosten"
+
+#: Views/MainMenu/MenuTemplateView.cpp:294
+#: Views/MainMenu/MenuTemplateView.cpp:295
+msgid "Options"
+msgstr "Optionen"
+
+#: Views/MainMenu/MenuTemplateView.cpp:296
+msgid "Help"
+msgstr "Hilfe"
+
+#: Views/MainMenu/MenuTemplateView.cpp:300
+msgid "Play"
+msgstr "Spielen"
+
+#: Views/MainMenu/MenuTemplateView.cpp:318
+msgid "Close Options"
+msgstr "Optionen Schließen"
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:53
+#: Views/MainMenu/Multi/HostOptionsView.cpp:297
+msgid "Broken"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:57
+#: Views/MainMenu/Multi/HostOptionsView.cpp:298
+msgid "Partly Cloudy"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:61
+#: Views/MainMenu/Multi/HostOptionsView.cpp:299
+msgid "Overcast"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:65
+#: Views/MainMenu/Multi/HostOptionsView.cpp:300
+msgid "Extremely Cloudy"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:69
+#: Views/MainMenu/Multi/HostOptionsView.cpp:296
+msgid "Clear"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:116
+msgid "Unknown"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:148
+#: Views/MainMenu/Multi/HostOptionsView.cpp:308
+msgid "Calm"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:153
+#: Views/MainMenu/Multi/HostOptionsView.cpp:309
+msgid "Breezy"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:158
+#: Views/MainMenu/Multi/HostOptionsView.cpp:310
+msgid "Brisk Winds"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:163
+#: Views/MainMenu/Multi/HostOptionsView.cpp:311
+msgid "Heavy Winds"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:168
+#: Views/MainMenu/Multi/HostOptionsView.cpp:312
+msgid "Typhoon"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:188
+msgid "Host Options"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:209
+msgid "Note: Use the right mouse button to accomplish fast mouse clicking."
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:247
+msgid "Max Players"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:255
+msgid "Game Max Unit Count"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:262
+msgid "Objective Capture Percent"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:285
+msgid "Game Type"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:295
+msgid "Cloud Coverage"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:307
+msgid "Wind Speed"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:319
+msgid "Public"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:324
+msgid "PowerUps"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:358
+msgid "max per player"
+msgstr ""
+
+#: Views/MainMenu/Multi/HostOptionsView.cpp:374
+msgid "Map Data Needed"
+msgstr ""
+
+#: Views/MainMenu/Multi/IPAddressView.cpp:30
+msgid "Server IP Address"
+msgstr ""
+
+#: Views/MainMenu/Multi/MapSelectionView.cpp:70
+msgid "Map Selection"
+msgstr ""
+
+#: Views/MainMenu/Multi/MapSelectionView.cpp:124
+msgid "No Maps Found"
+msgstr ""
+
+#: Views/MainMenu/Multi/MapSelectionView.cpp:126
+msgid "Outpost file error"
+msgstr ""
+
+#: Views/MainMenu/Multi/MapSelectionView.cpp:279
+msgid "Size"
+msgstr ""
+
+#: Views/MainMenu/Multi/MasterServer/ServerQueryThread.cpp:406
+msgid "No Masterservers configured"
+msgstr ""
+
+#: Views/MainMenu/Multi/MasterServer/ServerQueryThread.cpp:408
+#: Views/MainMenu/Multi/MasterServer/ServerQueryThread.cpp:416
+msgid "Querying Masterserver"
+msgstr ""
+
+#: Views/MainMenu/Multi/MasterServer/ServerQueryThread.cpp:410
+msgid "No response from Masterserver"
+msgstr ""
+
+#: Views/MainMenu/Multi/MasterServer/ServerQueryThread.cpp:413
+msgid "No servers found"
+msgstr ""
+
+#: Views/MainMenu/Multi/PlayerNameView.cpp:37
+msgid "Player Name"
+msgstr ""
+
+#: Views/MainMenu/Multi/ServerListView.cpp:52
+msgid "Servers"
+msgstr ""
+
+#: Views/MainMenu/Multi/ServerListView.cpp:53
+msgid "Players/max"
+msgstr ""
+
+#: Views/MainMenu/Multi/ServerListView.cpp:53
+msgid "Ping"
+msgstr ""
+
+#: Views/MainMenu/Multi/ServerListView.cpp:63
+msgid "Refresh"
+msgstr ""
+
+#: Views/MainMenu/Multi/ServerListView.cpp:133
+msgid "Resolving masterserver address"
+msgstr ""
+
+#: Views/MainMenu/Multi/ServerListView.cpp:147
+msgid "querying..."
+msgstr ""
+
+#: Views/MainMenu/Multi/ServerListView.cpp:150
+msgid "timeout"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:152
+msgid "VISUAL"
+msgstr "VISUELLES"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:156
+msgid "Full screen"
+msgstr "Vollbildschirm"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:163
+msgid "Draw All Shadows"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:172
+msgid "Resolution"
+msgstr "Auflösung"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:173
+msgid "Current"
+msgstr "Aktuelle"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:201
+msgid "Blend Smoke"
+msgstr "Rauch Vermischen"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:211
+msgid "Use DirectX"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:220
+msgid "Mini Map Unit Size"
+msgstr "Minikarten Größe"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:221
+msgid "Small"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:222
+msgid "Large"
+msgstr "Groß"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:231
+msgid "INTERFACE"
+msgstr "Benutzeroberfläche"
+
+#: Views/MainMenu/OptionsTemplateView.cpp:235
+msgid "Scroll Rate:"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:244
+msgid "SOUND"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:248
+msgid "Sound Status:"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:250
+#: Views/MainMenu/OptionsTemplateView.cpp:270
+#: Views/MainMenu/OptionsTemplateView.cpp:405
+#: Views/MainMenu/OptionsTemplateView.cpp:419
+msgid "Enabled"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:250
+#: Views/MainMenu/OptionsTemplateView.cpp:270
+#: Views/MainMenu/OptionsTemplateView.cpp:408
+#: Views/MainMenu/OptionsTemplateView.cpp:427
+msgid "Disabled"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:259
+msgid "Sound Volume:"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:268
+msgid "Music Status:"
+msgstr ""
+
+#: Views/MainMenu/OptionsTemplateView.cpp:279
+msgid "Music Volume:"
+msgstr ""

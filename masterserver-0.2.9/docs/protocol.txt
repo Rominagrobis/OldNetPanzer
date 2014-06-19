@@ -1,0 +1,80 @@
+This is a short description of the masterserver network protocol.
+
+1. Connection and Port
+The masterserver is using TCP connections. (see remark1) Normally we bind to
+port 28900.
+After opening a connection to the server the client can send several query
+messages. The server answers each of these queries with exactly 1 return
+message.
+
+2. Message Format
+Messages are sent as a set of tokens separated by a \ character. Messages are
+delimited with a "final" token. Example:
+    \list\gamename\mygame\protocol\1234\final\
+
+An Attribute/Value pair is a token with the name of the value followed by a
+token with a value. Example:
+    \port\1234\
+
+3. Message Types (client->server)
+    * heartbeat
+        informs the masterserver about a running server. Allowed key/value
+        pairs:
+            port - specifies the port where the server is running (required)
+            gamename - specifies the type of game on the server (required)
+            protocol - network protocol version of the game
+            password - needed for master/master sync, see section 5, 6
+        Additional key/value pairs are saved as is by the masterserver. They can
+        be used in queries to filter for certain types of servers.
+        Returns: nothing or \error\message\
+    * quit
+        Informs the masterserver that a server has quit. Allowed key/value
+        pairs:
+            port - specifies the port where the server was running (required)
+        Returns: nothing or \error\message\
+    * list
+        Queries for a list of running servers. You can specify additional
+        key/value pairs to filter for certain servers:
+            gamename - specifies the type of game on the server (required)
+        Additional keys are compared with the saved key/value pairs of the
+        servers. Only servers that match all key/value pairs are returned.
+        
+        Returns: either \error\message\ or a list of
+        "\ip\address\port\serverport" tokens with the IP of each server
+        matching the filter criteria.
+
+4. Server Heartbeats
+A running gameserver should send a heartbeat message to the server every 5
+minutes. The server is considered dead when no heartbeat arrived for 12 minutes.
+The masterserver assumes that there's no more than 1 server at each ip/port
+combination.
+
+5. Masterserver Networks
+It is possible to build a network of several masterservers, to make the service
+more reliable. In this case the servers will hold a list of running
+masterservers. You can query this list with a normal list command when supplying
+the gamename "master": \list\gamename\master\final\
+
+Masterservers also send heartbeat packets to the other masterservers. For
+security reasons, this is protected with a password, that the maintainer of the
+servernetwork has to tell each party that is trustworthy to be part of the
+masterserver network.
+
+6. Security considerations
+The above design depends alot on secure TCP connections. If someone is able to
+spoof their IP addresses he could do some bad things(flooding the masterserver
+with nonexistant game servers, abusing the masterservers bandwith for DOS
+attacks, ...). In the current internet it might be often possible to do such
+spoofing attacks, however I don't see an easy way to avoid problems here. At
+least spoofing attacks are hard to accomplish. Administrators of a masterserver
+network should make sure that the servers are running on operating systems that
+at least prohibit some of the well known spoofing attacks. (Modern linux/bsd
+boxes should be okay, Google for details)
+    
+remark1: Despite several other games we're not using UDP, because
+    1) latency isn't that critical
+    2) we need a reliable connection, doing this with UDP is hard and involves
+       lots of code.
+    3) Spoofing connections with UDP is alot easier than with TCP.
+    4) doing it in TCP needs alot less code and leads to a more elegant design
+

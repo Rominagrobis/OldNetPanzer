@@ -1,0 +1,3 @@
+go to ../../Languages
+msginit --no-translator --input=netPanzer.pot --locale=fr_FR.UTF-8
+

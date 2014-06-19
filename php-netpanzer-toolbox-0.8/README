@@ -1,0 +1,66 @@
+// php - netPanzer - Toolbox
+
+Contents:
+1. Introduction / License / Used libraries
+2. Installation / Modifications
+3. Configuration
+4. Contact / who has done this
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Introduction
+The php-netPanzer-Toolbox is a collection of classes and scripts supplying
+methods to query the masterserver network, query gameservers, display map
+images,.... .
+You can find some example applications in the /applications/ folder.
+
+1.1 License
+GNU GENERAL PUBLIC LICENSE
+See COPYING for more details.
+
+1.2 Used libraries
+netPanzer - Browser uses PEAR Cache_Lite to cache an entire dataset. This is necessary
+cause of some unreachable (behind firewalls) or crashed servers. The Smarty template
+ system is used to display the data.
+
+Web resources:
+PEAR / Cache_Lite: 	http://pear.php.net/package/Cache_Lite
+Smarty:				http://smarty.php.net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. Installation
+Unzip the files contents in any dir on your web server. Make sure the script is allowed
+to write in the cache directory. Make sure you have php, PEAR and PEAR Cache_Lite
+installed.
+
+All applications lie in /applications/. You can move the files but make sure you
+adapt the path values in base.conf.php.
+
+2.1 Modifications
+To modify the sites layout you only have to edit the template in ./templates/display.smarty .
+For information on the Smarty syntax please visit http://smarty.php.net .
+
+Usage of map-image output:
+	Call getimage.php?map=[MAPNAME]&size=[IMAGESIZE]
+	For possible imagesizes look below in the configuration section.
+
+The complete backend code lies in ./Games/NetPanzer/ .
+Please get information about usage from files in /applications/ . If you have
+problems, simply contact met.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3. Configuration
+Genearal php-netPanzer-Toolbox - configuration lies in base.conf.php. Speciffic
+configuration data is located in each file. Each files conf data overwrites
+global data.
+
+If you want to install new maps you have to add the maps-name to the
+/data/maps/maplist.conf.php file. You have to add the following files:
+ - A image - MAPNAME.png
+ - The spawn points file - MAPNAME.spn
+ - The outposts definition file - MAPNAME.opt
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3. Configuration:
+Please look for comments in each file. Was to lazy to write this part :( .
+If you have questions please contact me.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4. Contact
+netPanzer - Browser is programmed by
+    Tobias Blersch  ( npb@schrelb.de )

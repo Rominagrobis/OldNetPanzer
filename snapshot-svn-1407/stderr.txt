@@ -1,0 +1,74 @@
+2012-09-16 00:25:53 Lua Version:   'Lua 5.1.4-integrated'
+2012-09-16 00:25:53 Lua Copyright: 'Copyright (C) 1994-2008 Lua.org, PUC-Rio'
+2012-09-16 00:25:53 Lua Authors:   'R. Ierusalimschy, L. H. de Figueiredo & W. Celes'
+2012-09-16 00:25:55 Going to send:
+GET http://netpanzer.org:80/npnews.txt HTTP/1.1
+Host: netpanzer.org:80
+Connection: close
+
+
+[END]
+2012-09-16 00:25:55 Received: [http/1.1] [200/200] [OK]
+2012-09-16 00:25:55 received header [accept-ranges]:[bytes]
+2012-09-16 00:25:55 received header [connection]:[close]
+2012-09-16 00:25:55 received header [content-length]:[86]
+2012-09-16 00:25:55 received header [content-type]:[text/plain; charset=UTF-8]
+2012-09-16 00:25:55 received header [date]:[Sat, 15 Sep 2012 22:25:56 GMT]
+2012-09-16 00:25:55 received header [etag]:["ec000c-56-bad53c00"]
+2012-09-16 00:25:55 received header [last-modified]:[Thu, 29 Mar 2012 21:51:44 GMT]
+2012-09-16 00:25:55 received header [server]:[Apache/2.2.3 (CentOS)]
+2012-09-16 00:25:58 MASTERSERVER Connected [82.211.56.174]
+2012-09-16 00:25:58 Server IP received: [82.211.56.174:3030]
+2012-09-16 00:25:58 Querying server [82.211.56.174:3030]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3040]
+2012-09-16 00:25:58 Querying server [109.9.54.99:3040]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3030]
+2012-09-16 00:25:58 Querying server [109.9.54.99:3030]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3032]
+2012-09-16 00:25:58 Querying server [2.225.117.73:3032]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3031]
+2012-09-16 00:25:58 Querying server [2.225.117.73:3031]
+2012-09-16 00:25:58 Server IP received: [189.101.231.154:3030]
+2012-09-16 00:25:58 MASTERSERVER Connected [193.138.229.26]
+2012-09-16 00:25:58 Send error: Winsock error: 10061
+2012-09-16 00:25:58 MASTERSERVER Disconected [193.138.229.26]
+2012-09-16 00:25:58 Querying server [189.101.231.154:3030]
+2012-09-16 00:25:58 MASTERSERVER Connected [83.142.228.166]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3032]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3030]
+2012-09-16 00:25:58 Server IP received: [2.225.117.73:3031]
+2012-09-16 00:25:58 Server IP received: [82.211.56.174:3030]
+2012-09-16 00:25:58 Server IP received: [109.9.54.99:3040]
+2012-09-16 00:25:58 Server IP received: [189.101.231.154:3030]
+2012-09-16 00:25:58 Server IP received: [189.52.24.45:3030]
+2012-09-16 00:25:58 Querying server [189.52.24.45:3030]
+2012-09-16 00:26:01 Server [2.225.117.73:3031] timeout, retrying
+2012-09-16 00:26:01 Querying server [2.225.117.73:3031]
+2012-09-16 00:26:01 Server [2.225.117.73:3032] timeout, retrying
+2012-09-16 00:26:01 Querying server [2.225.117.73:3032]
+2012-09-16 00:26:01 Server [189.101.231.154:3030] timeout, retrying
+2012-09-16 00:26:01 Querying server [189.101.231.154:3030]
+2012-09-16 00:26:01 Server [189.52.24.45:3030] timeout, retrying
+2012-09-16 00:26:01 Querying server [189.52.24.45:3030]
+2012-09-16 00:26:04 Server [2.225.117.73:3031] timeout, retrying
+2012-09-16 00:26:04 Querying server [2.225.117.73:3031]
+2012-09-16 00:26:04 Server [2.225.117.73:3032] timeout, retrying
+2012-09-16 00:26:04 Querying server [2.225.117.73:3032]
+2012-09-16 00:26:04 Server [189.101.231.154:3030] timeout, retrying
+2012-09-16 00:26:04 Querying server [189.101.231.154:3030]
+2012-09-16 00:26:04 Server [189.52.24.45:3030] timeout, retrying
+2012-09-16 00:26:04 Querying server [189.52.24.45:3030]
+2012-09-16 00:26:07 Server [2.225.117.73:3031] timeout, retrying
+2012-09-16 00:26:07 Server [2.225.117.73:3032] timeout, retrying
+2012-09-16 00:26:07 Server [2.225.117.73:3031] timeout, removing
+2012-09-16 00:26:07 Server [189.101.231.154:3030] timeout, retrying
+2012-09-16 00:26:07 Server [2.225.117.73:3032] timeout, removing
+2012-09-16 00:26:07 Server [189.101.231.154:3030] timeout, removing
+2012-09-16 00:26:07 Server [189.52.24.45:3030] timeout, retrying
+2012-09-16 00:26:07 Server [189.52.24.45:3030] timeout, removing
+2012-09-16 00:26:07 Stopping querys to servers, no more servers
+2012-09-16 00:26:18 onMapLoadedEvent received........
+2012-09-16 00:26:18 Regenerating minimap....
+2012-09-16 00:26:37 VoteBox Surrendering vote, you choose surrendering?
+2012-09-16 00:27:04 onMapLoadedEvent received........
+2012-09-16 00:27:04 Regenerating minimap....

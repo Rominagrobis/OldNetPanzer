@@ -1,0 +1,18 @@
+HITPOINTS      1300;
+ATTACK_FACTOR   140;
+RELOAD_TIME      30;
+RANGE_MAX        31;
+REGEN_TIME       30;
+DEFEND_RANGE     28;
+SPEED_RATE       16;
+SPEED_FACTOR      2;
+IMAGE "pics/menus/vehicleSelectionView/titan.bmp"
+BODYSPRITE "units/pics/pak/TitaHNSD.pak"
+BODYSHADOW "units/pics/pak/TitaHSSD.pak"
+TURRETSPRITE "units/pics/pak/TitaTNSD.pak"
+TURRETSHADOW "units/pics/pak/TitaTSSD.pak"
+SOUNDSELECTED "ht-selected"
+FIRESOUND "ht-fire"
+WEAPON "SHELL"
+BOUNDBOX 60
+END;

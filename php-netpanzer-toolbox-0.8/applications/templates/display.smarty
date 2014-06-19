@@ -1,0 +1,80 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>netPanzer games</title>
+<META HTTP-EQUIV=Refresh CONTENT="{$conf.reloadtime}; URL={$php_self}">
+
+{literal}<style type="text/css">
+a {color: black}
+a:visited {color: black}
+a:active {color: black}
+a:hover {color: white; background: black}
+
+</style>{/literal}
+</head>
+
+<body style="font-family: Arial">
+<font size="5">Current netPanzer games ({$numgameservers.active}):</font>
+<ul style="margin-top: 1.5pt;">
+{if $numgameservers.active == 0}
+<li><b>No games found.</b><br><br></li>
+{/if}
+{foreach from=$gameservers item=gameserver}
+{if $gameserver.status.error != timeout}
+
+<li><i><font size="4">{*<a href="netpanzer://{$gameserver.host}:{$gameserver.port}">*}{$gameserver.status.hostname}{*</a>*}</font>  / {$gameserver.status.mapname} - {if $gameserver.status.gamestyle=="Time Limit"}{$gameserver.status.gamestyle}/{$gameserver.status.timelimit}minutes{/if}
+{if $gameserver.status.gamestyle=="Frag Limit"}{$gameserver.status.gamestyle}/{$gameserver.status.fraglimit}frags{/if}
+{if $gameserver.status.gamestyle=="Objective"}{$gameserver.status.gamestyle}{/if}
+ - {$gameserver.status.numplayers}/{$gameserver.status.maxplayers} Players - {$gameserver.host}:{$gameserver.port}</i>
+ <table border="0" cellpadding="0" cellspacing="0">
+ <tr>
+ 	<td width="14"></td>
+ 	<td align="center" valign="top"><img src="getimage.php?map={$gameserver.status.mapname}&size={*if $gameserver.status.numplayers==0}tiny{else}middle{/if*}middle" style="margin-top: 3.5pt"><br>
+ 	<font size="1"><b>{$gameserver.status.mapinfo.outposts.number}</b> outposts</font></td>
+ 	<td align="left" valign="top" width="600">
+<ul style="{*margin-left: -10pt; *}margin-top: 0px">
+{counter start=0 skip=1 print=false assign=playercount}
+{foreach from=$gameserver.status.players item=player}
+	<li><b>{$player.player}</b>{if isset ($player.flag)} <img src="./getflagimage.php?flagID={$player.flag}" align="absmiddle">{/if} - {$player.kills} Kills - {$player.deaths} Deaths{if isset ($player.flag)} - 
+    <b>{$player.score} Objectives</b> - {$gameserver.status.objectivelimit-$player.score} left to win{/if}</li>{counter print=false}
+{/foreach}
+{if $playercount < 1}<li><font size="2">empty server</font></li>{/if}
+</ul></td>
+ </tr>
+ <tr height="8"><td colspan="3"></td></tr>
+ 
+ </table>
+</li>{/if}
+{/foreach}
+
+{if (($numgameservers.all-$numgameservers.active) > 0) and $numgameservers.all > 0}<li><font size="2">{$numgameservers.all-$numgameservers.active} Server{if ($numgameservers.all-$numgameservers.active) > 1}s{/if} didn't respond</font>
+<ul><li>
+<div style="width: 480px; font-size: 10pt; text-align: justify"><b>You don't see your server?</b><br>
+If you think you server should be listed here, please check if you've configured 
+your firewall propperly. Check if you forward port <b>3030</b> in <b>TCP</b> and
+<b>UDP</b>. For further information please look at the
+<a target="_blank" href="http://cvs.berlios.de/cgi-bin/viewcvs.cgi/*checkout*/netpanzer/netpanzer/docs/serverhowto.html?rev=HEAD&content-type=text/html">server howto</a> in your netPanzer - docs dir.
+</div>
+</li></ul><br>
+
+</li>{/if}
+
+
+</ul>
+
+{*<br>
+<font size="5">Masterservers:</font>
+<ul style="margin-top: 1.5pt;">
+{foreach from=$masterservers item=masterserver}
+{if $masterserver.error!=timeout}<li><b>{$masterserver.host}</b>:{$masterserver.port}</li>{/if}
+{/foreach}
+</ul>*}
+
+<b>--&gt; <a href="./listmaps.php">Show all avialable maps.</a></b><br>
+<br>
+<b>--&gt; <a href="{$php_self}?raw=1">View the raw - data.</a></b><br>
+<b>--&gt; <a href="{$php_self}">reload</a> / <a href="{$php_self}?refresh=1">refresh</a></b><br>
+</body>
+
+</html>

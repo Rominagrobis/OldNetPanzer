@@ -1,0 +1,6 @@
+Version 0.2.8
+=============
+
+* Started to write a NEWS file
+* Added option to disable writing back the neighbour servers list to disk,
+  this option is disabled by default now

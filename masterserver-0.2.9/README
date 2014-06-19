@@ -1,0 +1,9 @@
+This is a masterserv, a server that is able to manage a list of currently
+running gameservers. It's not very polished yet, but the code should be robust
+and stable. You should adapt the serverconfig and neighbor (other masterservers
+in the network) to your need and then simply start the server.
+
+Informations about the protocol can be found in the docs directory.
+The exampleclient directory contains an example client, more advanced usage
+(like keeping a local list of masterserver in sync) can be found in the
+netpanzer project.

@@ -1,0 +1,17 @@
+hitpoints =  1000;
+attack =  100;
+reload =  12;
+range =  16;
+regen =  12;
+defend_range =  16;
+speed_rate =  19;
+speed_factor =  2;
+image =  "pics/menus/vehicleSelectionView/titan_woodland.bmp"
+bodysprite =  "units/pics/pak/woodland/TitaHNSD.pak"
+bodyshadow =  "units/pics/pak/woodland/TitaHSSD.pak"
+turretsprite =  "units/pics/pak/woodland/TitaTNSD.pak"
+turretshadow =  "units/pics/pak/woodland/TitaTSSD.pak"
+soundselected =  "ht-selected"
+soundfire =  "ht-fire"
+weapon =  "SHELL"
+boundbox =  60

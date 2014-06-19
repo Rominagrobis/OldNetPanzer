@@ -1,0 +1,36 @@
+# This is an example configuration for the masterserver
+# Change it to your needs and copy to masterserver.cfg
+
+[server]
+# you can specify an address here, if you don't want to bind on all network
+# interfaces
+listen=127.0.0.1
+
+# In case the listen address is not the internet-ip for this server, you can
+# specify the internet-ip here
+# ip=127.0.0.1
+port=28900
+# time until a server is considered dead
+server-alive-timeout=720
+# time until a clientrequest is aborted
+client-request-timeout=30
+# limit of concurrently handled requests
+connection-limit=10
+
+# Interval other masterservers are notified that we're still alive
+masterserver-heartbeat-interval=300
+# Password for masterserver heartbeats
+masterserver-password=xxx
+
+# write back the list of neighbour servers when the server crashs or quits
+write-back-neighbour-list=no
+
+# Paths, Enable them if you don't want the default paths
+
+# Specifies the location of the logfile
+# logfile = /var/log/masterserver.log
+# Specifies the location of the servercache file
+# servercachefile = /var/cache/masterserver/neighboors
+# Specifies the lcoation of the pidfile
+# pidfile = /var/run/masterserver.pid
+

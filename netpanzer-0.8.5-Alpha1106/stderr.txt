@@ -1,0 +1,58 @@
+2012-07-05 19:15:26 Lua Version:   'Lua 5.1.4-integrated'
+2012-07-05 19:15:26 Lua Copyright: 'Copyright (C) 1994-2008 Lua.org, PUC-Rio'
+2012-07-05 19:15:26 Lua Authors:   'R. Ierusalimschy, L. H. de Figueiredo & W. Celes'
+2012-07-05 19:15:29 Going to send:
+GET http://netpanzer.org:80/npnews.txt HTTP/1.1
+Host: netpanzer.org:80
+Connection: close
+
+
+[END]
+2012-07-05 19:15:29 Received: [http/1.1] [200/200] [OK]
+2012-07-05 19:15:29 received header [accept-ranges]:[bytes]
+2012-07-05 19:15:29 received header [connection]:[close]
+2012-07-05 19:15:29 received header [content-length]:[86]
+2012-07-05 19:15:29 received header [content-type]:[text/plain; charset=UTF-8]
+2012-07-05 19:15:29 received header [date]:[Thu, 05 Jul 2012 17:15:29 GMT]
+2012-07-05 19:15:29 received header [etag]:["ec000c-56-bad53c00"]
+2012-07-05 19:15:29 received header [last-modified]:[Thu, 29 Mar 2012 21:51:44 GMT]
+2012-07-05 19:15:29 received header [server]:[Apache/2.2.3 (CentOS)]
+2012-07-05 19:15:32 MASTERSERVER Connected [82.211.56.174]
+2012-07-05 19:15:32 Server IP received: [82.211.56.174:3030]
+2012-07-05 19:15:32 Querying server [82.211.56.174:3030]
+2012-07-05 19:15:32 Server IP received: [109.10.208.127:3030]
+2012-07-05 19:15:32 Querying server [109.10.208.127:3030]
+2012-07-05 19:15:32 Server IP received: [109.10.208.127:3040]
+2012-07-05 19:15:32 Querying server [109.10.208.127:3040]
+2012-07-05 19:15:32 Server IP received: [109.211.148.12:3030]
+2012-07-05 19:15:32 Querying server [109.211.148.12:3030]
+2012-07-05 19:15:32 MASTERSERVER Connected [193.138.229.26]
+2012-07-05 19:15:32 Send error: Winsock error: 10061
+2012-07-05 19:15:32 MASTERSERVER Disconected [193.138.229.26]
+2012-07-05 19:15:32 MASTERSERVER Connected [83.142.228.166]
+2012-07-05 19:15:33 Server IP received: [82.211.56.174:3030]
+2012-07-05 19:15:33 Server IP received: [109.10.208.127:3030]
+2012-07-05 19:15:33 Server IP received: [109.10.208.127:3040]
+2012-07-05 19:15:33 Server IP received: [109.211.148.12:3030]
+2012-07-05 19:15:33 Stopping querys to servers, no more servers
+2012-07-05 19:15:41 MASTERSERVER Connected [193.138.229.26]
+2012-07-05 19:15:41 Send error: Winsock error: 10061
+2012-07-05 19:15:41 MASTERSERVER Disconected [193.138.229.26]
+2012-07-05 19:15:41 MASTERSERVER Connected [82.211.56.174]
+2012-07-05 19:15:41 Server IP received: [82.211.56.174:3030]
+2012-07-05 19:15:41 Querying server [82.211.56.174:3030]
+2012-07-05 19:15:41 Server IP received: [109.10.208.127:3030]
+2012-07-05 19:15:41 Querying server [109.10.208.127:3030]
+2012-07-05 19:15:41 Server IP received: [109.10.208.127:3040]
+2012-07-05 19:15:41 Querying server [109.10.208.127:3040]
+2012-07-05 19:15:41 Server IP received: [109.211.148.12:3030]
+2012-07-05 19:15:41 Querying server [109.211.148.12:3030]
+2012-07-05 19:15:41 MASTERSERVER Connected [83.142.228.166]
+2012-07-05 19:15:41 Server IP received: [82.211.56.174:3030]
+2012-07-05 19:15:41 Server IP received: [109.10.208.127:3030]
+2012-07-05 19:15:41 Server IP received: [109.10.208.127:3040]
+2012-07-05 19:15:41 Server IP received: [109.211.148.12:3030]
+2012-07-05 19:15:41 Stopping querys to servers, no more servers
+2012-07-05 19:15:54 onMapLoadedEvent received........
+2012-07-05 19:15:54 Regenerating minimap....
+2012-07-05 19:16:00 respawn_rule_complete

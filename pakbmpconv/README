@@ -1,0 +1,91 @@
+Ok, the code is on svn just in case someone wants to compile those programs on linux: # scons pak2bmp bmp2pak
+
+
+copy the file to your netpanzer folder, the one with the .exe and all the
+> .dll files
+> 
+> suppose you have it in c:\netpanzer
+> 
+> to run, first create a folder to contain the files, the program wont
+> create
+> the folder for you.
+> 
+> There are 2 parameters, the pak file and the output folder. even if you
+> use
+> windows you have to use '/' instead of '\', example of converting titan to
+> bmp;
+> 
+> C:\some_folder> cd \netpanzer
+> C:\netpanzer> mkdir titan_body
+> C:\netpanzer> pak2bmp units/pics/pak/TitaHNSD.pak titan_body
+> 
+
+
+
+C:\netpanzer> mkdir bmp
+C:\netpanzer> pak2bmp units/pics/pak/TitaHNSD.pak bmp
+*** - change your files - ***
+*** - create new units completely, where are the helicopters? lol - ***
+C:\netpanzer> bmp2pak bmp/TitaHNSD.def the/new/or/old/file.pak
+
+Extra notes:
+
+In pak2bmp you can add a parameter to select which palette to use, I think we doesn't use the netpmenu palette, but just in case it was a couple of lines to add.
+C:\netpanzer> pak2bmp file.pak outdir netpmenu
+
+When converting from bmp to pak, it will first load the .def file (it has the size, the number of frames, etc). Then all the bmp files has to have the same name with added _0, _1, _2, etc..
+
+There is something to take into account, netpanzer supposes the rotation of each frame is its frame number * 10 degrees, so:
+
+frame 0 = 0 degrees (pointing right)
+frame 1 = 10 degrees (slightly upwards)
+frame 9 = 90 degrees (pointing up)
+
+I think you get the Idea, BUT THERE IS MORE
+
+As you know moving diagonal is 45 degrees, but there is not, this is the frames np will use for the movement:
+
+* Values:
+ * Orientation     Angle
+ *
+ *  3  2  1        14  9  5
+ *   \ | /           \ | /
+ * 4 - T - 0      18 - T - 0
+ *   / | \           / | \
+ *  5  6  7        23 27 32
+
+This is copied from the code, I needed these values when doing the newpath thing. If it is not clear, copy it to "notepad" and you will see teh correct positions: 0 = right, 5 = upright, 9 = up, 14 = upleft, 18 left....
+
+And the last thing, netpanzer "supposes" that all the units has 4 parts:
+- body
+- body shadow
+- turret
+- turret shadow
+
+The standard names (that looks strange) uses the following naming convention (note: it DOESN'T need to be like this, as you know you could give any name you want)
+
+aaaa[HT][NS]SD.pak
+
+aaaa = short name for unit
+H = Body
+T = Turret
+N = Normal
+S = Shadow
+SD = means nothing to me, maybe something they added.
+
+To create shadows, the "white" color will become the shadow of the unit.
+
+I think the guy that created original images (i read somewhere the history somewhere) bough some model tanks, then draw by hand all of them, each time apply a rotation (to the model in his table) and draw the best he could.
+
+Note that all the units has some kind of perspective and the sun looks like is on the right.
+
+Last thing, the 36 frames is a little problem to me (due to not having 45 degrees), 32 would be better (but maybe a little less smooth) but unless someone wants to have a shitload of work I don't recommend changing.
+
+have fun.
+
+
+
+
+kromxp
+
+

@@ -1,0 +1,76 @@
+10
+
+dir
+1341
+svn://svn.berlios.de/netpanzer/trunk/netpanzer/src/NetPanzer
+svn://svn.berlios.de/netpanzer
+
+
+
+2012-02-04T14:53:05.617878Z
+1341
+kromxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0d1e1ef8-cfd4-0310-ad88-a35b9148bcce
+
+Interfaces
+dir
+
+System
+dir
+
+PowerUps
+dir
+
+Port
+dir
+
+Bot
+dir
+
+Particles
+dir
+
+Scripts
+dir
+
+Core
+dir
+
+Network
+dir
+
+Views
+dir
+
+Objectives
+dir
+
+Classes
+dir
+
+Units
+dir
+
+Structs
+dir
+
+Resources
+dir
+
+Weapons
+dir
+

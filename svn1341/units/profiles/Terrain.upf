@@ -1,0 +1,17 @@
+hitpoints =  1300;
+attack =  140;
+reload =  20;
+range =  24;
+regen =  16;
+defend_range =  12;
+speed_rate =  16;
+speed_factor =  2;
+image =  "pics/menus/vehicleSelectionView/titan_danisch.bmp"
+bodysprite =  "units/pics/pak/danisch/TitaHNSD.pak"
+bodyshadow =  "units/pics/pak/danisch/TitaHSSD.pak"
+turretsprite =  "units/pics/pak/danisch/TitaTNSD.pak"
+turretshadow =  "units/pics/pak/danisch/TitaTSSD.pak"
+soundselected =  "ht-selected"
+soundfire =  "ht-fire"
+weapon =  "SHELL"
+boundbox =  60
