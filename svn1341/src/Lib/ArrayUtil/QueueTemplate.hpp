@@ -42,7 +42,7 @@ public:
 
     bool enqueue(const TYPE& object )
     {
-        add( object, (rear + 1) % this->size );
+        this->add( object, (rear + 1) % this->size );
         rear = (rear + 1) % this->size;
 
         if ( front == rear )
